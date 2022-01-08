@@ -20,12 +20,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap"
+        rel="stylesheet">
     <!-- SimpleLightbox plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <!--  LITY (includes Bootstrap)-->
+    <link href="css/lity.css" rel="stylesheet">
 </head>
+
 
 <body id="page-top">
     <!-- Navigation-->
@@ -85,7 +89,7 @@
             text-center
           ">
 
-                <div class="col-lg-8  text-center align-self-end">
+                <div class="col-lg-8 text-center align-self-end">
                     <img class="img-mobile p-0 m-0 img-fluid" src="assets/img/album/monas.jpg" width="120">
                     <h4 class="p-0 m-0">
                         MONAS
@@ -95,12 +99,14 @@
                 <div class="col-lg-8 align-self-baseline">
                     <p class="">
                     <div>
-                        <a class="btn btn-primary m-1 mt-md-3 text-white zoom " href="#" role="button">
-                            <h3><i class="fab fa-spotify m-1"></i>LISTEN</h3>
-                        </a>
-                        <a class="btn btn-primary m-1 mt-md-3 text-white zoom " href="#" role="button">
-                            <h3><i class="fab fa-youtube m-1"></i>WATCH</h3>
-                        </a>
+                        <a class="btn btn-primary mt-md-3 text-white zoom"
+                        href="https://open.spotify.com/embed/track/1XZhMXRCPzqCJTsiBYy7FO?utm_source=generator" data-lity>
+                        <h3><i class="fab fa-spotify m-1"></i>LISTEN</h3>
+                    </a>
+                    <a class="btn btn-primary mt-md-3 text-white zoom" href="//www.youtube.com/watch?v=vhXWq3MPTYg"
+                        data-lity>
+                        <h3><i class="fab fa-youtube m-1"></i>WATCH</h3>
+                    </a>
                     
                     </div>
                     </p>
@@ -197,6 +203,8 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/lity.js"></script>
 
     <script src="https://kit.fontawesome.com/f7d745f3d3.js" crossorigin="anonymous"></script>
 </body>
