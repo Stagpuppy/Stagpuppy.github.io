@@ -11549,7 +11549,7 @@ header.masthead h1, header.masthead .h1 {
 @media (min-width: 320px) {
   header.masthead {
     height: 100vh;
-    min-height: 5rem;
+    min-height: 1rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
