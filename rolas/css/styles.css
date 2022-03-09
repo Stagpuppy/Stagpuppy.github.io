@@ -4109,8 +4109,8 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
+  
+
   transition: box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4479,11 +4479,11 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1);
+  color: transparent;
+  border-color: transparent;
 }
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-light .navbar-text {
   color: rgba(0, 0, 0, 0.55);
@@ -11361,7 +11361,7 @@ hr.divider-light {
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #6c757d;
+  color: black;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 1rem;
@@ -11415,7 +11415,7 @@ hr.divider-light {
 header.masthead {
   background-size: 100px;
   padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-bottom: 12rem;
   background-color: white;
   background-position: center;
   background-repeat: no-repeat;
@@ -11423,12 +11423,16 @@ header.masthead {
   background-size: cover;
 }
 header.masthead h1, header.masthead .h1 {
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 900;
   line-height: 50px;
   letter-spacing: -3px;
+  color: #000;
   
 }
+
+
+
 
 @media (min-width: 992px) {
   header.masthead {
