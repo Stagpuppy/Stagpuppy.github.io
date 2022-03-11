@@ -108,6 +108,17 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: -2px;
+  color: #000;
+}
+
+
+p, .p{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  color: #000;
 }
 
 h1, .h1 {
@@ -115,7 +126,7 @@ h1, .h1 {
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -650,8 +661,7 @@ progress {
   {
     max-width: auto;
     max-height: 320px;
-    padding-top: 0;
-    margin-top: 0;
+  
   }
 
 }
@@ -11336,13 +11346,13 @@ body {
 }
 
 hr.divider {
-  height: 0.2rem;
-  max-width: 3.25rem;
+  height: 0.1rem;
+  max-width: 5rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ffcc00;
+  background-color: #000;
   opacity: 1;
 }
 
@@ -11414,8 +11424,8 @@ hr.divider-light {
 
 header.masthead {
   background-size: 100px;
-  padding-top: 10rem;
-  padding-bottom: 12rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
   background-color: white;
   background-position: center;
   background-repeat: no-repeat;
@@ -11474,7 +11484,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(0, 153, 51,0.7);
   transition: opacity 0.25s ease;
   text-align: center;
 }
