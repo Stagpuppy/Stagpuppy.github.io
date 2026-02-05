@@ -3,47 +3,51 @@
 This landing page template is a proprietary website template
 developed and maintained for selected clients.
 
-The template is designed to be flexible and universal, suitable for:
-corporate profiles, UMKM, startups, and personal branding websites.
+The template is designed as a universal landing page solution
+that can be customized for multiple client projects, including
+corporate websites, UMKM, startups, and personal branding.
 
 ---
 
-## 📌 Purpose
+## 🎯 Purpose
 
-This template is provided exclusively to clients who have selected
-this design as part of their website project.
+This template is provided exclusively to clients as part of
+website development services.
 
-It is intended for direct production use and long-term maintenance.
+Each client receives an implementation of the template
+customized to their brand, content, and business needs.
 
 ---
 
-## ✨ Key Characteristics
+## ✨ Key Features
 
-- Clean & modern layout
-- Responsive across all devices
+- Modern and clean visual design
+- Fully responsive layout
 - SEO-friendly semantic HTML structure
-- Optimized performance (lightweight HTML & CSS)
-- WebP image support
-- Accessibility-aware design (WCAG compliant considerations)
-- Easy to maintain and extend
+- Lightweight and high-performance code
+- WebP image-ready
+- Accessibility-aware (WCAG-oriented)
+- Easy to customize content and assets
 
 ---
 
-## 🛠 Usage
+## 🛠 Usage Guidelines
 
-- Content and images may be customized for the client’s brand
-- Structure and core styling should remain consistent
-- This template is intended for deployment as a static website
-  or integrated into a backend framework if required
+- Clients may customize text, images, colors, and branding
+- Structural layout and core styling remain proprietary
+- Intended for use in a single website per client
+- May be deployed as a static site or integrated with a backend
 
 ---
 
-## 🔒 Confidentiality
+## 🔒 Confidentiality & Ownership
 
-This template is not a public asset.
+This template remains the intellectual property of the author.
 
-Source files and design structure should not be shared, published,
-or redistributed outside the scope of the agreed project.
+Clients receive usage rights, not ownership of the template.
+
+Source files, structure, and design may not be redistributed,
+resold, or published publicly.
 
 ---
 
