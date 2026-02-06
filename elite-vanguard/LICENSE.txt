@@ -1,0 +1,24 @@
+EXCLUSIVE MULTI-CLIENT LICENSE
+
+Copyright (c) 2026
+
+This template is a proprietary digital asset owned by the author.
+
+Permission is granted to clients to use this template for
+one (1) website project per client.
+
+PERMITTED:
+- Use the template for a single website
+- Modify content, images, and branding
+- Deploy the website for production purposes
+
+NOT PERMITTED:
+- Redistribute, resell, or sublicense the template
+- Share source files with third parties
+- Reuse the template for multiple websites or clients
+- Publish the template in public repositories or marketplaces
+- Claim authorship or ownership of the template
+
+The author retains all intellectual property rights.
+
+This template is provided "as is", without warranty of any kind.
