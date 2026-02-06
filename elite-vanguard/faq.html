@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ | PRIMACORP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <style>
+      .bg-midnight {
+        background-color: #0f172a;
+      }
+      .text-midnight {
+        color: #0f172a;
+      }
+
+      /* Accordion Style */
+      .faq-item {
+        border-bottom: 1px solid #e2e8f0;
+      }
+      .faq-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+      }
+      .faq-item:hover .faq-content,
+      .faq-item:focus-within .faq-content {
+        max-height: 200px;
+      }
+    </style>
+  </head>
+  <body class="font-sans text-slate-800 bg-white">
+    <nav
+      class="flex items-center justify-between px-12 py-5 bg-midnight sticky top-0 z-50 shadow-xl border-b border-slate-700"
+    >
+      <div class="text-2xl font-light tracking-[0.25em] text-white">
+        <a href="index.html">PRIMA<span class="font-bold text-slate-300">CORP</span></a>
+      </div>
+
+      <div class="hidden md:flex space-x-8 font-medium text-slate-400 uppercase text-[10px] tracking-[0.15em]">
+        <a href="index.html" class="hover:text-white transition">Beranda</a>
+        <a href="about.html" class="hover:text-white transition">Tentang Kami</a>
+        <a href="portfolio.html" class="hover:text-white transition">Portofolio</a>
+        <a href="investor.html" class="hover:text-white transition">Investor</a>
+        <a href="blog.html" class="hover:text-white transition">Insight</a>
+        <a href="career.html" class="hover:text-white transition">Karir</a>
+        <a href="contact.html" class="hover:text-white transition">Kontak</a>
+      </div>
+
+      <button
+        class="border border-slate-500 text-slate-300 px-6 py-2 text-[10px] font-bold hover:bg-white hover:text-midnight transition tracking-widest uppercase"
+      >
+        Client Portal
+      </button>
+    </nav>
+    <section class="bg-midnight py-20 border-b border-slate-800">
+      <div class="container mx-auto px-12">
+        <h2 class="text-slate-500 font-bold uppercase tracking-[0.4em] text-xs mb-4">Informasi & Bantuan</h2>
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Pertanyaan yang Sering Diajukan</h1>
+        <p class="text-slate-400 max-w-2xl font-light">
+          Temukan jawaban cepat mengenai prosedur operasional, kemitraan strategis, dan kebijakan korporat kami.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-24 container mx-auto px-12">
+      <div class="max-w-4xl mx-auto">
+        <div class="mb-16">
+          <h3 class="text-xs font-bold uppercase tracking-[0.3em] text-slate-400 mb-8 border-l-4 border-slate-200 pl-4">
+            Kemitraan & Bisnis
+          </h3>
+
+          <div class="space-y-2">
+            <div class="faq-item group outline-none" tabindex="0">
+              <div class="flex justify-between items-center py-6 cursor-pointer">
+                <h4 class="font-bold text-midnight group-hover:text-slate-500 transition">
+                  Bagaimana prosedur pengajuan kemitraan strategis dengan PRIMACORP?
+                </h4>
+                <i class="fas fa-plus text-xs text-slate-300 group-focus:rotate-45 transition-transform"></i>
+              </div>
+              <div class="faq-content">
+                <p class="pb-6 text-sm text-slate-500 leading-relaxed">
+                  Calon mitra dapat mengirimkan profil perusahaan dan proposal kerjasama melalui halaman
+                  <a href="contact.html" class="text-midnight font-bold underline">Kontak</a> atau email ke
+                  partnership@primacorp.co.id. Tim Business Development kami akan melakukan tinjauan awal dalam waktu
+                  3-5 hari kerja.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item group outline-none" tabindex="0">
+              <div class="flex justify-between items-center py-6 cursor-pointer">
+                <h4 class="font-bold text-midnight group-hover:text-slate-500 transition">
+                  Apakah PRIMACORP menerima vendor baru untuk pengadaan proyek?
+                </h4>
+                <i class="fas fa-plus text-xs text-slate-300 group-focus:rotate-45 transition-transform"></i>
+              </div>
+              <div class="faq-content">
+                <p class="pb-6 text-sm text-slate-500 leading-relaxed">
+                  Ya, kami memiliki sistem pengadaan terpusat. Vendor yang ingin mendaftar wajib memenuhi standar
+                  kualifikasi K3L dan legalitas hukum yang berlaku di Indonesia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-16">
+          <h3 class="text-xs font-bold uppercase tracking-[0.3em] text-slate-400 mb-8 border-l-4 border-slate-200 pl-4">
+            Keuangan & Investasi
+          </h3>
+
+          <div class="space-y-2">
+            <div class="faq-item group outline-none" tabindex="0">
+              <div class="flex justify-between items-center py-6 cursor-pointer">
+                <h4 class="font-bold text-midnight group-hover:text-slate-500 transition">
+                  Kapan laporan keuangan tahunan diterbitkan?
+                </h4>
+                <i class="fas fa-plus text-xs text-slate-300 group-focus:rotate-45 transition-transform"></i>
+              </div>
+              <div class="faq-content">
+                <p class="pb-6 text-sm text-slate-500 leading-relaxed">
+                  Laporan tahunan (Annual Report) yang telah diaudit biasanya diterbitkan pada akhir Maret setiap
+                  tahunnya dan dapat diakses melalui halaman
+                  <a href="investor.html" class="text-midnight font-bold underline">Investor Relations</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-xs font-bold uppercase tracking-[0.3em] text-slate-400 mb-8 border-l-4 border-slate-200 pl-4">
+            Karir
+          </h3>
+
+          <div class="space-y-2">
+            <div class="faq-item group outline-none" tabindex="0">
+              <div class="flex justify-between items-center py-6 cursor-pointer">
+                <h4 class="font-bold text-midnight group-hover:text-slate-500 transition">
+                  Apakah PRIMACORP menyediakan program internship?
+                </h4>
+                <i class="fas fa-plus text-xs text-slate-300 group-focus:rotate-45 transition-transform"></i>
+              </div>
+              <div class="faq-content">
+                <p class="pb-6 text-sm text-slate-500 leading-relaxed">
+                  Kami membuka program magang secara periodik untuk mahasiswa tingkat akhir dari jurusan Teknik,
+                  Keuangan, dan Hukum. Informasi lebih lanjut tersedia di halaman
+                  <a href="career.html" class="text-midnight font-bold underline">Karir</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-slate-50 border-t border-slate-200">
+      <div class="container mx-auto px-12 text-center">
+        <h3 class="text-xl font-bold text-midnight mb-4 italic">Masih Memiliki Pertanyaan?</h3>
+        <p class="text-slate-500 text-sm mb-8">
+          Jika Anda tidak menemukan jawaban yang Anda cari, jangan ragu untuk menghubungi tim kami secara langsung.
+        </p>
+        <a
+          href="contact.html"
+          class="inline-block bg-midnight text-white px-10 py-4 font-bold text-xs tracking-widest hover:bg-slate-800 transition shadow-lg"
+          >HUBUNGI TIM DUKUNGAN</a
+        >
+      </div>
+    </section>
+  </body>
+</html>
